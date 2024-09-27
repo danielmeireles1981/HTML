@@ -1,0 +1,106 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: lightsteelblue;
+}
+
+aside.barra-lateral {
+    width: 20%;
+    border: none;
+    border-radius: 20px;
+    margin-right: 5px;
+    background-image: linear-gradient(60deg, rgba(0, 225, 255, 0.6), rgba(233, 129, 150, 0.9));
+    text-shadow: black 2px 2px;
+}
+
+section.conteudo {
+    background: gray;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.display {
+    background: lightsteelblue;
+    flex-grow: 1;
+    background-image: url('https://i.pinimg.com/originals/e2/c0/c3/e2c0c3183ef012b61f3c6c6b5088d52e.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 250px;
+    ;
+}
+
+.textcapa {
+    color: white;
+    font-size: 100px;
+    text-shadow: black 5px 3px;
+    margin-top: 130px;
+    margin-left: 10px;
+}
+
+.textsobre {
+    font-size: 28px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.insert {
+    background-image: linear-gradient(60deg, rgba(0, 225, 255, 0.6), rgba(233, 129, 150, 0.9));
+    color: white;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+}
+
+.barra-lateral {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* alinha os itens na horizontal */
+    align-items: flex-start;
+    /* alinha os itens na vertical */
+}
+
+.barra-lateral div p {
+    color: white;
+    font-size: 20px;
+    text-shadow: red 1px 1px;
+}
+
+.profile {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    border: solid;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#dialogbox ul li {
+    text-align: left;
+    color: white;
+    list-style-image: url('ds.png');
+    padding: 15px;
+    font-size: 32px;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+a:hover,
+#dialogbox ul li:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+#modalzoom {
+    width: 100%;
+    height: 500px;
+    border: solid transparent 3px;
+    border-radius: 100%;
+}
